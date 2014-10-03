@@ -1,0 +1,62 @@
+﻿@model FooterModel
+@using Nop.Core
+@using Nop.Core.Domain.Tax
+@using Nop.Core.Infrastructure
+@using Nop.Web.Models.Common;
+
+<footer>
+    <div class="wrapper">
+        <ul class="col mini left">
+            <li><h3>link</h3></li>
+            <li><a href="@Url.RouteUrl("ContactUs")">@T("ContactUs")</a></li>
+            <li><a href="#">link</a></li>
+            <li><a href="#">link</a></li>
+            <li><a href="#">link</a></li>
+            <li><a href="#">link</a></li>
+            <li><a href="#">link</a></li>
+        </ul>
+        <ul class="col mini left">
+            <li><h3>link</h3></li>
+            <li><a href="#">link</a></li>
+            <li><a href="#">link</a></li>
+            <li><a href="#">link</a></li>
+            <li><a href="#">link</a></li>
+            <li><a href="#">link</a></li>
+            <li><a href="#">link</a></li>
+        </ul>
+        <ul class="col mini left">
+            <li><h3>link</h3></li>
+            <li><a href="#">link</a></li>
+            <li><a href="#">link</a></li>
+            <li><a href="#">link</a></li>
+            <li><a href="#">link</a></li>
+            <li><a href="#">link</a></li>
+            <li><a href="#">link</a></li>
+        </ul>
+        <ul class="col mini left">
+            <li><h3>link</h3></li>
+            <li><a href="#">link</a></li>
+            <li><a href="#">link</a></li>
+            <li><a href="#">link</a></li>
+            <li><a href="#">link</a></li>
+            <li><a href="#">link</a></li>
+            <li><a href="#">link</a></li>
+        </ul>
+        <div class="col fill">
+            @Html.Action("NewsletterBox", "Newsletter")
+        </div>
+    </div>
+    <div class="wrapper">
+        <ul class="footer-links distribute">
+            <li><a href="#">link</a></li>
+            <li><a href="#">link</a></li>
+            <li><a href="#">link</a></li>
+            <li><a href="#">link</a></li>
+            <li><a href="#">link</a></li>
+            <li><a href="#">link</a></li>
+        </ul>
+        <div class="center">
+            <a class="logo-footer" href="#">LearningRoots</a>
+        </div>
+    </div>
+</footer>
